@@ -1,0 +1,9 @@
+.skill_details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.skill_details {
+    display: flex;
+    gap: 1rem;
+}

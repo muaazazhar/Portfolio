@@ -1,0 +1,22 @@
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+/* ==================== Media Queries(Medium Sized Devices) ==================== */
+@media screen and (max-width: 1024px) {
+    .projects_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+  
+  
+/* ==================== Media Queries(Small Sized Devices) ==================== */
+@media screen and (max-width: 600px) {
+    .projects_container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
