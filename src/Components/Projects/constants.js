@@ -32,7 +32,8 @@ project3 = {
         "Material UI was used for modern and responsive design and for improving user experience as well.",
         "State management tools like Redux-Saga was also a plus in handeling data.",
         "This project can also have some future enhancements like having a similar mobile application as well."
-    ]
+    ],
+    link: "https://open-buisness-pk-frontend.vercel.app/"
 }
 
 
