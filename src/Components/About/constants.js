@@ -1,4 +1,26 @@
-const text_array = ["Welcome to my portfolio! I am Muaaz Azhar a passionate and dedicated full-stack developer with one year of professional experience", 
+function getExperience() {
+  const startDate = new Date('2022-11-01');
+  const now = new Date();
+  let years = now.getFullYear() - startDate.getFullYear();
+  let months = now.getMonth() - startDate.getMonth();
+  let days = now.getDate() - startDate.getDate();
+
+  if (days < 0) {
+    months -= 1;
+    days += new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+  }
+
+  if (months < 0) {
+    years -= 1;
+    months += 12;
+  }
+
+  return `${years} years and ${months} months`;
+}
+
+
+
+const text_array = [`Welcome to my portfolio! I am Muaaz Azhar a passionate and dedicated full-stack developer with ${getExperience()} of professional experience`, 
 "I have a strong foundation in both front-end and back-end development, allowing me to create dynamic and robust web applications", 
 "With a focus on the MERN stack (MongoDB, Express.js, React.js, Node.js), And Some Other techonologies like (Nestjs, PostgreSQL, TailwindCSS, MaterialUI)",  
 "I strive to deliver efficient and scalable solutions that meet the needs of clients and users",
