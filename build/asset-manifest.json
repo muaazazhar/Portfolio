@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.22a5f367.css",
-    "main.js": "/Portfolio/static/js/main.ae502f1f.js",
+    "main.css": "/Portfolio/static/css/main.cc9da323.css",
+    "main.js": "/Portfolio/static/js/main.5eef6905.js",
     "static/media/heroImage.png": "/Portfolio/static/media/heroImage.ad0e2f80ab27efada9bc.png",
     "static/media/aswa-associates-preview.png": "/Portfolio/static/media/aswa-associates-preview.95b3767ca74e19bd5c3e.png",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.7984cb2b7332ef7411e7.pdf",
     "static/media/bazaar-collage.png": "/Portfolio/static/media/bazaar-collage.bdd56ccaefc8d29198d8.png",
     "static/media/portfolio1.png": "/Portfolio/static/media/portfolio1.9b37ca4e85d79261e027.png",
     "index.html": "/Portfolio/index.html",
-    "main.22a5f367.css.map": "/Portfolio/static/css/main.22a5f367.css.map",
-    "main.ae502f1f.js.map": "/Portfolio/static/js/main.ae502f1f.js.map"
+    "main.cc9da323.css.map": "/Portfolio/static/css/main.cc9da323.css.map",
+    "main.5eef6905.js.map": "/Portfolio/static/js/main.5eef6905.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a5f367.css",
-    "static/js/main.ae502f1f.js"
+    "static/css/main.cc9da323.css",
+    "static/js/main.5eef6905.js"
   ]
 }
