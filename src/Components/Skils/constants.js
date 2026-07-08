@@ -2,12 +2,33 @@ const frontend_Skills = [
     "HTML",
     "CSS",
     "JavaScript",
-    "React.Js",
+    "React.js",
     "TailwindCSS",
-    "MaterialUI",
+    "Material UI",
   ],
-  backend_Skills = ["Node.Js", "MongoDB", "Nest.Js", "PostgreSQL"],
-  languages = ["C++", "Javascript", "Python", "Java"],
-  tools = ["VsCode", "Github", "MS Word", "Adobe Premier(Video Editor)"]
+  mobile_Skills = ["React Native"],
+  backend_Skills = [
+    "NestJS",
+    "FastAPI",
+    "Node.js",
+    "Python",
+    "REST APIs",
+    "Stripe",
+  ],
+  databases_Skills = ["PostgreSQL", "MySQL", "MongoDB"],
+  tools = [
+    "GitHub",
+    "Redux",
+    "Teamwork",
+    "Communication",
+    "Leadership",
+    "Problem Solving",
+  ];
 
-export { frontend_Skills, backend_Skills, languages, tools };
+export {
+  frontend_Skills,
+  mobile_Skills,
+  backend_Skills,
+  databases_Skills,
+  tools,
+};

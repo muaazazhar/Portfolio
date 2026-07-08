@@ -1,45 +1,18 @@
-function getExperience() {
-  const startDate = new Date('2022-11-01');
-  const now = new Date();
-  let years = now.getFullYear() - startDate.getFullYear();
-  let months = now.getMonth() - startDate.getMonth();
-  let days = now.getDate() - startDate.getDate();
+import { getExperience } from "./getExperience";
 
-  if (days < 0) {
-    months -= 1;
-    days += new Date(now.getFullYear(), now.getMonth(), 0).getDate();
-  }
+const { years, months } = getExperience();
 
-  if (months < 0) {
-    years -= 1;
-    months += 12;
-  }
+const text_array = [
+  `Welcome to my portfolio! I am Muaaz Azhar, a software engineer with ${years} years and ${months} months of professional experience`,
+  "I build full-stack applications with NestJS, ReactJS, Python FastAPI, PostgreSQL, MySQL, and MongoDB",
+  "My work includes scalable inventory systems, social media platforms, and statistics-driven data analysis applications",
+  "At Codebricks, I worked on a FastAPI-based statistics platform and implemented ANOVA, Principal Component Analysis, and Tukey's HSD",
+  "At I2C, I contributed to Struts-based enterprise applications, responsive frontend components, and backend API integrations",
+  "At Gigalabs, I helped build an inventory management system with NestJS, ReactJS, Redux, and PostgreSQL",
+  "I focus on clean architecture, reusable components, performance optimization, and practical problem solving",
+  "I enjoy working with teams to turn business requirements into reliable software products that are easy to maintain",
+];
 
-  return `${years} years and ${months} months`;
-}
+const about_text = text_array.join(". ");
 
-
-
-const text_array = [`Welcome to my portfolio! I am Muaaz Azhar a passionate and dedicated full-stack developer with ${getExperience()} of professional experience`, 
-"I have a strong foundation in both front-end and back-end development, allowing me to create dynamic and robust web applications", 
-"With a focus on the MERN stack (MongoDB, Express.js, React.js, Node.js), And Some Other techonologies like (Nestjs, PostgreSQL, TailwindCSS, MaterialUI)",  
-"I strive to deliver efficient and scalable solutions that meet the needs of clients and users",
- "Throughout my journey as a developer, I have worked on various projects, tackling complex challenges and collaborating with diverse teams", 
- "My experience includes building responsive and intuitive user interfaces using modern front-end frameworks like React.js and leveraging the power of CSS preprocessors and UI libraries to create visually stunning websites", 
-"On the back-end, I have expertise in developing RESTful APIs, handling server-side logic, and integrating with databases such as MongoDB and PostgreSQL", 
-"I am well-versed in Node.js, Express.js and Nestjs, allowing me to create efficient and secure server-side solutions", 
-"What sets me apart is my constant drive for learning and staying up-to-date with the latest industry trends and technologies", 
-"I am always eager to expand my skillset and take on new challenges", 
-"I am a quick learner, adaptable, and a strong problem solver, which allows me to thrive in dynamic and fast-paced environments", 
-"I believe in clean and maintainable code, adhering to best practices and industry standards", 
-"I am passionate about delivering high-quality software solutions that not only meet the functional requirements but also provide an exceptional user experience", 
-" As you explore my portfolio, you will find examples of my work, showcasing my ability to transform ideas into reality", 
-"I am excited about the opportunities to collaborate and contribute to innovative projects", 
-"If you are looking for a dedicated and skilled full-stack developer, I would love to connect and discuss how I can bring value to your team", 
-"Thank you for visiting my portfolio, and I look forward to connecting with you soon!"]
-
-const about_text = text_array.join(". ")
-
-export {
-    about_text
-}
+export { about_text };

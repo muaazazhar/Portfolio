@@ -39,13 +39,26 @@ body {
     background: linear-gradient(var(--color-bg-variant),var(--color-bg), var(--color-bg-variant));
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ========== GENERAL STYLES =========== */
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+}
+
+/* Shared "surface" card look: subtle bg panel that inverts on hover.
+   Used by About stats, Contact options, Portfolio items, and Skill groups. */
+.surface-card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.surface-card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 h1, h2, h3, h4, h5 {

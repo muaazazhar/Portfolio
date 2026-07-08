@@ -38,6 +38,7 @@
 .project_list-icon {
     color: var(--color-primary);
     margin-top: 2px;
+    flex-shrink: 0;
 }
 
 .project_list > li > p {

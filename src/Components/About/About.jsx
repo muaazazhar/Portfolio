@@ -5,33 +5,15 @@ import { FaAward } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { about_text } from "./constants";
+import { getExperience } from "./getExperience";
 
 const About = () => {
   const [exp, setExp] = useState();
 
-  function getExperience() {
-  const startDate = new Date('2022-11-01');
-  const now = new Date();
-  let years = now.getFullYear() - startDate.getFullYear();
-  let months = now.getMonth() - startDate.getMonth();
-  let days = now.getDate() - startDate.getDate();
-
-  if (days < 0) {
-    months -= 1;
-    days += new Date(now.getFullYear(), now.getMonth(), 0).getDate();
-  }
-
-  if (months < 0) {
-    years -= 1;
-    months += 12;
-  }
-
-  setExp(`${years} years and ${months} months`)
-}
-
-  useEffect(()=>{
-    getExperience()
-  },[])
+  useEffect(() => {
+    const { years, months, days } = getExperience();
+    setExp(`${years} years and ${months} months and ${days} days`);
+  }, []);
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -42,26 +24,24 @@ const About = () => {
         </div>
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
+            <article className="about_card surface-card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
               <small>{exp}</small>
             </article>
 
-            <article className="about_card">
+            <article className="about_card surface-card">
               <GiGraduateCap className="about_icon" />
               <h5>Degree</h5>
               <small>BSCS(GCU Lahore)</small>
             </article>
-            <article className="about_card">
+            <article className="about_card surface-card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>Worked on around 10 projects</small>
+              <small>Inventory, social, and data analysis platforms</small>
             </article>
           </div>
-          <p>
-            {about_text}
-          </p>
+          <p>{about_text}</p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

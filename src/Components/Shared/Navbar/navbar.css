@@ -32,3 +32,13 @@ nav > a.active {
 .navbar-icons {
     color: var(--color-light);
 }
+
+@media screen and (max-width: 340px) {
+    nav {
+        padding: 0.6rem 0.8rem;
+        gap: 0.3rem;
+    }
+    nav a {
+        padding: 0.6rem;
+    }
+}
