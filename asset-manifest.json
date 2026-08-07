@@ -1,18 +1,34 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cc9da323.css",
-    "main.js": "/Portfolio/static/js/main.5eef6905.js",
+    "main.css": "/Portfolio/static/css/main.2b63a7cd.css",
+    "main.js": "/Portfolio/static/js/main.e0a32ef1.js",
     "static/media/heroImage.png": "/Portfolio/static/media/heroImage.ad0e2f80ab27efada9bc.png",
-    "static/media/aswa-associates-preview.png": "/Portfolio/static/media/aswa-associates-preview.95b3767ca74e19bd5c3e.png",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.7984cb2b7332ef7411e7.pdf",
-    "static/media/bazaar-collage.png": "/Portfolio/static/media/bazaar-collage.bdd56ccaefc8d29198d8.png",
-    "static/media/portfolio1.png": "/Portfolio/static/media/portfolio1.9b37ca4e85d79261e027.png",
+    "static/media/applicant-kanban.jpg": "/Portfolio/static/media/applicant-kanban.f6d0316cd73b226f4449.jpg",
+    "static/media/org-dashboard.jpg": "/Portfolio/static/media/org-dashboard.d3f315fde73d005c37c0.jpg",
+    "static/media/merchant-dashboard.jpg": "/Portfolio/static/media/merchant-dashboard.231cc01b1e7e6306f248.jpg",
+    "static/media/inventory-catalogue.jpg": "/Portfolio/static/media/inventory-catalogue.d171e1451754d8adbf3c.jpg",
+    "static/media/product-detail.jpg": "/Portfolio/static/media/product-detail.f2d9ffe3ac91cd64695b.jpg",
+    "static/media/complaint-tracking.jpg": "/Portfolio/static/media/complaint-tracking.551d0edb035aee0860ba.jpg",
+    "static/media/order-management.jpg": "/Portfolio/static/media/order-management.fe297c3c3cceda797390.jpg",
+    "static/media/storefront-home.jpg": "/Portfolio/static/media/storefront-home.d217c5fb1d0e0062b2ad.jpg",
+    "static/media/analytics.jpg": "/Portfolio/static/media/analytics.9f28f14a7ee011faa555.jpg",
+    "static/media/hiring-dashboard.jpg": "/Portfolio/static/media/hiring-dashboard.52c2e07cc1d9ab83ef7a.jpg",
+    "static/media/catalogue-home.jpg": "/Portfolio/static/media/catalogue-home.e34ff1161ed87bc147ff.jpg",
+    "static/media/platform-dashboard.jpg": "/Portfolio/static/media/platform-dashboard.10097cd85ba00f17a011.jpg",
+    "static/media/hiring-analytics.jpg": "/Portfolio/static/media/hiring-analytics.3aa8ffd96eec646ffa45.jpg",
+    "static/media/asset-approval.jpg": "/Portfolio/static/media/asset-approval.d737e75568072de53b33.jpg",
+    "static/media/messaging.jpg": "/Portfolio/static/media/messaging.385425ec2fa097cdabc0.jpg",
+    "static/media/candidate-dashboard.jpg": "/Portfolio/static/media/candidate-dashboard.eabf3d14a9fd3ab98337.jpg",
+    "static/media/admin-panel.jpg": "/Portfolio/static/media/admin-panel.186ad35260cc9d87bc17.jpg",
+    "static/media/checkout-payment.jpg": "/Portfolio/static/media/checkout-payment.b6f73c35342e4e16f869.jpg",
+    "static/media/wallet.jpg": "/Portfolio/static/media/wallet.f8ee7544dbb2aae7dd5a.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.cc9da323.css.map": "/Portfolio/static/css/main.cc9da323.css.map",
-    "main.5eef6905.js.map": "/Portfolio/static/js/main.5eef6905.js.map"
+    "main.2b63a7cd.css.map": "/Portfolio/static/css/main.2b63a7cd.css.map",
+    "main.e0a32ef1.js.map": "/Portfolio/static/js/main.e0a32ef1.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc9da323.css",
-    "static/js/main.5eef6905.js"
+    "static/css/main.2b63a7cd.css",
+    "static/js/main.e0a32ef1.js"
   ]
 }
