@@ -1,5 +1,5 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--color-nav-bg);
     width: max-content;
     display: flex;
     padding: 0.7rem 1.7rem;
@@ -22,7 +22,7 @@ nav a {
     font-size: 1.1rem;
 }
 nav > a:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--color-nav-bg);
 }
 nav > a.active {
     background: var(--color-bg);

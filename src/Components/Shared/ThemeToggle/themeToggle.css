@@ -1,0 +1,46 @@
+.theme_toggle {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 10;
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.35rem;
+    background: var(--color-nav-bg);
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.theme_toggle > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--color-light);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.theme_toggle > button:hover {
+    color: var(--color-white);
+}
+
+.theme_toggle > button.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+@media screen and (max-width: 600px) {
+    .theme_toggle {
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .theme_toggle > button {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+}
