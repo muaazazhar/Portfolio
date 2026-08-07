@@ -26,13 +26,13 @@ const ProjectCard = ({ project }) => {
 
   return (
     <article className="project_card surface-card">
-      <header className="project_card-header">
+      <div className="project_card-header">
         <div>
           <h3>{name}</h3>
           <p className="project_card-tagline">{tagline}</p>
         </div>
         <span className="project_card-stack">{stack}</span>
-      </header>
+      </div>
 
       <div className="project_card-body">
         <div className="project_card-gallery">
